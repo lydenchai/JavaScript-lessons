@@ -1,0 +1,12 @@
+{
+  "name": "chatrooms",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SomChhhorn/ChatRooms/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

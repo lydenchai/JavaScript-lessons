@@ -1,0 +1,33 @@
+const container = document.querySelector('.container');
+
+
+document.addEventListener('keyup', function(e) {
+    console.log(e.key);
+})
+
+
+// container.addEventListener('click',  function(){
+//     document.body.style.background = "teal";
+// })
+// container.addEventListener('dblclick',  function(){
+//     document.body.style.background = "orange";
+// })
+
+// // container.addEventListener('mousemove',  function(){
+// //     document.body.style.background = "green";
+// // })
+
+// container.addEventListener('mouseleave',  function(){
+//     document.body.style.background = "black";
+// })
+// container.addEventListener('mouseover',  function(){
+//     document.body.style.background = "red";
+// })
+
+let input = document.querySelector('input');
+input.addEventListener('focus', function() {
+    document.body.style.background = "lime";
+});
+input.addEventListener('blur', function() {
+    document.body.style.background = "orange";
+});

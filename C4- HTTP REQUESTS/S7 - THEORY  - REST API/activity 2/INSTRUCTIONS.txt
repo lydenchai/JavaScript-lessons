@@ -1,0 +1,29 @@
+
+Use the folowing API key
+	apikey	=	fab8d88e
+
+
+Example	Get all info about avenger
+
+	URL = 	 http://www.omdbapi.com/?apikey=fab8d88e&t=Avengers
+
+
+Write the full URL to :
+
+
+Q1 - Get all info about « Fight Club »
+
+	URL =  http://www.omdbapi.com/?apikey=fab8d88e&t=FightClub
+
+Q2 - Get all movies from 2013 with « jedi » in title
+
+	URL = http://www.omdbapi.com/?apikey=fab8d88e&s=jedi&y=2013
+
+Q3 - Get the full plot of the serie named « utopia »
+
+	URL = http://www.omdbapi.com/?apikey=fab8d88e&s=utopia&type=series
+
+Q4 - get the second page of search for all movies with « friend » in their title,  and get the result in xml file format
+
+
+	URL = 

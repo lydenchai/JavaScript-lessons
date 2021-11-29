@@ -1,0 +1,70 @@
+----------------------------------------------------------------------------------------------------
+DOM
+----------------------------------------------------------------------------------------------------
+
+1- The DOM Tree
+	- The docuement root element
+	- DOM element properties / function
+
+2- Functions to access to DOM elements
+	
+	getElementById
+	querySelector
+	querySelectorAll 
+
+3- What is an HTML Collection ?
+
+	myCollection.length		// size of the collection
+	myCollection[i]			// access to the elmeent at index i
+	myCollection["myForm"]		// access to the elmeent  of id "myForm"
+
+
+4- Change some DOM element properties
+
+	textContent
+	className
+	style.display		(none, block ...)
+	style.<property>	ex : color...
+
+5- Traverse the  DOM
+	children
+	parentNode 
+
+6 - Create new nodes
+	document.createElement
+
+7-  Add/Remove nodes to other nodes
+	parent.removeChild(child)
+	parent.appendChild(child)
+
+
+----------------------------------------------------------------------------------------------------
+EVENT
+----------------------------------------------------------------------------------------------------
+
+1- What is an event
+2- Event type: mouse, key, button…
+3- Listen to event
+
+4-  Handle event
+	event.target			
+	preventDefault() 
+
+5 - Event cascade
+
+6- SetTimeout / SetInterval
+
+----------------------------------------------------------------------------------------------------
+FORM
+----------------------------------------------------------------------------------------------------
+
+1- Access to input using ID
+
+2- Access to forms and inputs using the properties of the document
+
+3-  Get the value of inputs text fields, text area
+
+4- Get which radio or checkbox is checked
+
+5 – Listen to radio changes
+

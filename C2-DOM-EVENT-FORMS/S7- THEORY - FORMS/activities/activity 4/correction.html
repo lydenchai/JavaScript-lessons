@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <input type="radio" name="color" value="mediumpurple" /> Purple
+    <input type="radio" name="color" value="lightgreen" /> Green
+    <input type="radio" name="color" value="lightblue" /> Blue
+    <script>
+      function setColor(event) {
+        // 1- Get the radio element related to the event (use event.target)
+        let radio = event.target;
+
+        // 2- Replate this code to set the color to the value of the radio
+        document.body.style.background = radio.value; // TO CHANGE
+      }
+
+      let buttons = document.getElementsByName("color");
+
+      // For each button, add a listener on the "change" event to call the setColor function
+      for (button of buttons) {
+        button.addEventListener("change", setColor);
+      }
+    </script>
+  </body>
+</html>

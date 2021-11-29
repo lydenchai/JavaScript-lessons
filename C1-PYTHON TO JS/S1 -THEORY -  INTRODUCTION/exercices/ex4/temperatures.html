@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SUNNY OR COLD ?</title>
+  </head>
+
+  <body>
+    <img id="fan" src="" width="1000" />
+
+    <script>
+      var temperature = prompt("What is the Temperature ?");
+
+      if (temperature <= 0) {
+        document.getElementById("fan").src = "cold.png";
+      } else if (temperature < 40) {
+        document.getElementById("fan").src = "nice.png";
+      } else {
+        document.getElementById("fan").src = "sunny.png";
+      }
+    </script>
+  </body>
+</html>
